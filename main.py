@@ -3,6 +3,7 @@ import socket
 import machine
 import time
 import network
+
 sta_if = network.WLAN(network.STA_IF)
 if not sta_if.isconnected():
   print('connecting to network...')
