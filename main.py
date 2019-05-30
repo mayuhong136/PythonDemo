@@ -12,7 +12,7 @@ if not sta_if.isconnected():
   while not sta_if.isconnected():
     pass
 print('network config:', sta_if.ifconfig())
-
+print('network config:', sta_if.ifconfig())
 
 
 
